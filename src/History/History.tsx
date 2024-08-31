@@ -14,8 +14,7 @@ function History() {
    * https://stackoverflow.com/questions/56671436/cv-mat-is-not-a-constructor-opencv 
   */
   cv.onRuntimeInitialized = () => {
-    console.log("test")
-    console.log(cv.ACCESS_FAST)
+    console.log("OpenCV is ready!")
   }
 
   return (
